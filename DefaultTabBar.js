@@ -45,6 +45,7 @@ const DefaultTabBar = createReactClass({
       accessible={true}
       accessibilityLabel={name}
       accessibilityTraits='button'
+      activeOpacity={1}
       onPress={() => onPressHandler(page)}
     >
       <View style={[styles.tab, this.props.tabStyle, ]}>
